@@ -1,0 +1,62 @@
+# Nextflow runtime files
+work/
+.conda/
+.nf*
+.nextflow*
+trace.txt
+report.html
+timeline.html
+dag.png
+
+# Output and results
+results/
+output/
+*.log
+*.html
+*.txt
+*.tsv
+*.csv
+*.png
+*.pdf
+
+# Cache and temporary files
+.cache/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# OS and IDE-specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python and Conda
+__pycache__/
+*.py[cod]
+envs/
+*.env
+*.sh.env
+*.yml.lock
+.venv/
+
+# Docker / Singularity
+*.img
+*.sif
+*.sandbox
+
+# nf-test
+.nf-test/
+
+# Test data (optional)
+test_data/
+
+# Compressed files
+*.tar
+*.gz
+*.zip
+*.bz2
+*.7z
